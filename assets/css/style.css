@@ -1,0 +1,28 @@
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 10px solid black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1000px;
+
+}
+
+.full-row{
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+}
+
+button{
+    height: 50px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 2px solid blue;
+}
