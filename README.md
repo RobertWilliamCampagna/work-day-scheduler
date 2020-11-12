@@ -1,4 +1,4 @@
-<h1>Work Day Scheduler<h1>
+Work Day Scheduler<br>
 This is a daily planner like application that uses HTML, Javascript, Bootstrap, JQuery, Moment.js to collect tasks and change status due to the time of day.  The current day will be displayed on top of the page.</p>
 <br>
 GIVEN I am using a daily planner to create a schedule
