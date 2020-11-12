@@ -5,8 +5,8 @@ body {
   }
   
   textarea{
-    background: lightgray;
-    border-style: solid;
+    background:transparent;
+    border: none;
     resize: none;
     color: #000000;
     border-left: 1px solid black;
@@ -33,6 +33,7 @@ body {
   .row {
     white-space: pre-wrap;
     height: 80px;
+    margin-bottom: 20px;
     border-top: 1px solid white;;
   }
   
