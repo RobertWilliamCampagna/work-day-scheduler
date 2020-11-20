@@ -52,26 +52,38 @@ var m3 = m.format("YYYY")
   
   console.log(targetTextArea.attr('id'))
   //send to local storage
-  localStorage.setItem("task-"+ textAreaId ,targetTextArea.val());
+  localStorage.setItem(pId, textAreaId);
    
 });
 
- function getLocalStorage() {
-if (localStorage.getItem("textarea")){
-  textAreaContent = JSON.parse(localStorage.getItem('textarea'));
-  }
- }
 
-  function setTextContent (){
-    for (const [key, value] of Object.entries(textAreaContent)){
-      $("#"+key).val(value);
-    }
-  }
 
-$(document).ready(function(){
-  getLocalStorage();
-  setTextContent();
-})
+
+
+
+
+
+
+
+
+
+
+//  function getLocalStorage() {
+// if (localStorage.getItem("textarea")){
+//   textAreaContent = JSON.parse(localStorage.getItem('textarea'));
+//   }
+//  }
+
+//   function setTextContent (){
+//     for (const [key, value] of Object.entries(textAreaContent)){
+//       $("#textData"+key).val(value);
+//     }
+//   }
+
+// $(document).ready(function(){
+//   getLocalStorage();
+//   setTextContent();
+// })
   
 
   

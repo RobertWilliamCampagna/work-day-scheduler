@@ -18,7 +18,4 @@ THEN the saved events persist<br>
 <img src="https://i.imgur.com/SQ9btEb.png">
 
 
-link to daily planner:
-
-<link src="https://robertwilliamcampagna.github.io/work-day-scheduler/"/>
 
